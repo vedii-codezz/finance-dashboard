@@ -102,3 +102,12 @@ tbody tr:hover
 {
     background-color: #F2F5EA;
 }
+
+/* Media Query */
+@media /*Starts a media query. */ (max-width: 600px) /*Applies the styles when the screen is 600px wide or narrower.*/
+{
+    .card-container
+    {
+         grid-template-columns: 1fr; /* Changes the three-column layout into one column */
+    }
+}
