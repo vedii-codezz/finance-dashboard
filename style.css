@@ -59,14 +59,15 @@ footer p {
     position: relative;
 }
 
-.overlap-box {
+/* .overlap-box 
+{
     position: absolute;
     top: 35px;
     right: 10px;
     background-color: #9CB75A;
     padding: 10px;
-    z-index: 1;
-}
+    z-index: 5;
+} */
 
 .card-badge {
     position: absolute;
