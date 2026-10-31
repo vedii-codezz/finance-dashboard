@@ -57,6 +57,11 @@ footer p {
     margin-bottom: 25px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
     position: relative;
+    transition: transform 0.3s ease;
+}
+
+.summary-card:hover {
+    transform: translateY(-5px);
 }
 
 /* .overlap-box {
