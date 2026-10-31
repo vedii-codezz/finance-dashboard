@@ -116,3 +116,9 @@ tbody tr:hover
         box-sizing: border-box;
     }
 }
+
+.table-container
+{
+    width: 100%;
+    overflow-x: auto;
+}
