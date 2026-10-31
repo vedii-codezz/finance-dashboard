@@ -136,3 +136,10 @@ tbody tr:hover
     width: 100%;
     overflow-x: auto;
 }
+
+nav a:hover
+{
+    color: #FFFFFF;
+    background-color: #EC3A02;
+    border-radius: 5px;
+}
