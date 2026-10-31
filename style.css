@@ -133,6 +133,8 @@ tbody tr:hover
     {
         width: 100%;
         box-sizing: border-box;
+        justify-content: center;
+        gap: 10px;
     }
 }
 
