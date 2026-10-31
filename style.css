@@ -2,20 +2,29 @@ body
 {
     background-color: #FFFFFF;
     color : #070709;
+    font-family: serif;
 }
 
 h1
 {
     color: #10130b;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: left;
 }
 
 h2
 {
+    font-size: 26px;
     color: #9CB75A;
+    letter-spacing: 0.5px;
 }
 
 p
 {
+    font-size: 16px;
+    line-height: 1.5;
     color: #484a4b;
 }
 
@@ -43,10 +52,11 @@ footer p
 .summary-card
 {
     background-color: #d3e997;
-    padding: 20px;
+    padding: 30px;
     border-radius: 12px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+    
 }
 
 .summary-card h3
@@ -59,6 +69,7 @@ footer p
     color: #10130b;
     font-size: 24px;
     font-weight: bold;
+    text-align: left;
 }
 
 .card-container
