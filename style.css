@@ -37,6 +37,9 @@ nav
     width: 80%;
     min-height: 80px;
     border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
 }
 
 nav a
