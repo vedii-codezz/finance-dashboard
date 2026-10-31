@@ -39,9 +39,12 @@ nav
     border-radius: 12px;
 }
 
-nav p
+nav a
 {
     color: #10130b;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
 }
 
 footer p
