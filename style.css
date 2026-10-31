@@ -1,12 +1,10 @@
-body 
-{
+body {
     background-color: #FFFFFF;
-    color : #070709;
+    color: #070709;
     font-family: serif;
 }
 
-h1
-{
+h1 {
     color: #10130b;
     font-size: 32px;
     font-weight: bold;
@@ -14,22 +12,19 @@ h1
     text-align: left;
 }
 
-h2
-{
+h2 {
     font-size: 26px;
     color: #9CB75A;
     letter-spacing: 0.5px;
 }
 
-p
-{
+p {
     font-size: 16px;
     line-height: 1.5;
     color: #484a4b;
 }
 
-nav
-{
+nav {
     background-color: #9CB75A;
     padding: 20px;
     margin-top: 20px;
@@ -44,21 +39,18 @@ nav
     flex-wrap: wrap;
 }
 
-nav a
-{
+nav a {
     color: #10130b;
     text-decoration: none;
     font-weight: bold;
     padding: 10px;
 }
 
-footer p
-{
+footer p {
     color: #EC3A02;
 }
 
-.summary-card
-{
+.summary-card {
     background-color: #d3e997;
     padding: 30px;
     border-radius: 12px;
@@ -66,24 +58,32 @@ footer p
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
     position: relative;
     top: 10px;
-    left: 10px;    
+    left: 10px;
 }
 
-.summary-card h3
-{
+.card-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #EC3A02;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.summary-card h3 {
     color: #484a4b;
 }
 
-.summary-card p
-{
+.summary-card p {
     color: #10130b;
     font-size: 24px;
     font-weight: bold;
     text-align: left;
 }
 
-.card-container
-{
+.card-container {
     /* display: flex;
     gap: 20px;
     justify-content: space-between; */
@@ -97,42 +97,41 @@ footer p
     flex: 1;
 } */
 
-table 
-{
+table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
 }
 
-th 
-{
+th {
     background-color: #9CB75A;
     color: #10130b;
     padding: 15px;
     text-align: left;
 }
 
-td 
-{
+td {
     padding: 15px;
     border-bottom: 1px solid #dddddd;
     color: #484a4b;
 }
 
-tbody tr:hover 
-{
+tbody tr:hover {
     background-color: #F2F5EA;
 }
 
 /* Media Query */
-@media /*Starts a media query. */ (max-width: 600px) /*Applies the styles when the screen is 600px wide or narrower.*/
-{
-    .card-container
+@media
+/*Starts a media query. */
+(max-width: 600px)
+/*Applies the styles when the screen is 600px wide or narrower.*/
     {
-         grid-template-columns: 1fr; /* Changes the three-column layout into one column */
+    .card-container {
+        grid-template-columns: 1fr;
+        /* Changes the three-column layout into one column */
     }
-    nav
-    {
+
+    nav {
         width: 100%;
         box-sizing: border-box;
         justify-content: center;
@@ -140,14 +139,12 @@ tbody tr:hover
     }
 }
 
-.table-container
-{
+.table-container {
     width: 100%;
     overflow-x: auto;
 }
 
-nav a:hover
-{
+nav a:hover {
     color: #FFFFFF;
     background-color: #EC3A02;
     border-radius: 5px;
